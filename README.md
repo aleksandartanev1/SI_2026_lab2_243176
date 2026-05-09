@@ -105,9 +105,39 @@ Multiple Condition borrowBook: 4
 
 CFG za borrow book
 <img width="641" height="941" alt="borrowbook-243176" src="https://github.com/aleksandartanev1/SI_2026_lab2_243176/blob/master/borrowbook-243176.png" />
+ciklomatska kompleksnost za borrowBook
+
+se proveruvat uslovi kaj:
+
+1. if(title.isEmpty() || author.isEmpty())
+2. for(Book book : books)
+3. if(book.getTitle().equalsIgnoreCase(title) && book.getAuthor().equalsIgnoreCase(author))
+4. if(!book.isBorrowed())
+
+D = 4
+
+V(G) = D + 1
+V(G) = 4 + 1 = 5
+
+ciklomatskata kompleksnost e 5.
 
 CFG za searchbook
 <img width="463" height="991" alt="searchbookbytitle-243176" src="https://github.com/aleksandartanev1/SI_2026_lab2_243176/blob/master/searchbookbytitle-243176.png" />
+ciklomatska kompleksnost za searchbookbytitle
+
+se proveruvat uslovi kaj:
+
+1. if(title.isEmpty())
+2. for(Book book : books)
+3. if(book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed())
+4. if(results.isEmpty())
+
+D = 4
+
+V(G) = D + 1
+V(G) = 4 + 1 = 5
+
+ciklomatskata kompleksnost e 5.
 
 
 
