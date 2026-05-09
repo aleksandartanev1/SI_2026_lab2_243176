@@ -103,3 +103,11 @@ Every Branch za borrowBook: 4
 Multiple Condition searchBookByTitle: 4
 Multiple Condition borrowBook: 4
 
+CFG za borrow book
+<img width="641" height="941" alt="borrowbook-243176" src="https://github.com/aleksandartanev1/SI_2026_lab2_243176/blob/master/borrowbook-243176.png" />
+
+CFG za searchbook
+<img width="463" height="991" alt="searchbookbytitle-243176" src="https://github.com/aleksandartanev1/SI_2026_lab2_243176/blob/master/searchbookbytitle-243176.png" />
+
+
+
